@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FFFFFF"
+        >
+
+    <TextView
+        android:id="@+id/stime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="总体情况——"/>
+    
+    <TextView
+        android:id="@+id/stotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+   
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="接听情况——"/>
+    
+    <TextView
+        android:id="@+id/sincoming"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/sin6coming"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="拨打情况——"/>
+    
+    <TextView
+        android:id="@+id/soutgoing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/sout6going"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="单次接听最长——"/>
+    
+    <TextView
+        android:id="@+id/sinmaxnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/sinmax6number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="单次拨打最长——"/>
+    
+    <TextView
+        android:id="@+id/soutmaxnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/soutmax6number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/sfee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+</LinearLayout>
+</ScrollView>

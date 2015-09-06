@@ -49,8 +49,8 @@ public class MenuActivity extends FragmentActivity implements View.OnClickListen
 
         // create menu items;
         itemHome     = new ResideMenuItem(this, R.drawable.icon_home,     "首页");
-        itemProfile  = new ResideMenuItem(this, R.drawable.icon_profile,  "通话记录");
-        itemCalendar = new ResideMenuItem(this, R.drawable.icon_calendar, "短信记录");
+        itemProfile  = new ResideMenuItem(this, R.drawable.icon_profile,  "当月通话");
+        itemCalendar = new ResideMenuItem(this, R.drawable.icon_calendar, "当月短信");
         itemSettings = new ResideMenuItem(this, R.drawable.icon_settings, "系统设置");
 
         itemHome.setOnClickListener(this);
@@ -94,7 +94,8 @@ public class MenuActivity extends FragmentActivity implements View.OnClickListen
         if (view == itemHome){
             changeFragment(new HomeFragment());
         }else if (view == itemProfile){
-            changeFragment(new ProfileFragment());
+            //changeFragment(new ProfileFragment1());
+        	changeFragment(new com.yingjunyu.MyPhoneAsst.view.ContactsDbFragment());
         }else if (view == itemCalendar){
             changeFragment(new CalendarFragment());
         }else if (view == itemSettings){

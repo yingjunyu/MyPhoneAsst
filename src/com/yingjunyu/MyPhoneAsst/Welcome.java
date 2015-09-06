@@ -153,13 +153,14 @@ public class Welcome extends Activity{
                 ContactsContract.CommonDataKinds.Phone.NUMBER,
                 ContactsContract.Contacts.DISPLAY_NAME,
                 ContactsContract.Contacts.PHOTO_ID };
-		if(sNumber.length() == 14){
-			sNumber = sNumber.substring(3);
-		}
-		Cursor cursor = getApplication().getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
-				phoneNumberProjection, "data1 = " + sNumber, null, null);
-		String sss = "无记录";
+		String sss;
 		try{
+			if(sNumber.length() == 14){
+				sNumber = sNumber.substring(3);
+			}
+			Cursor cursor = getApplication().getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+					phoneNumberProjection, "data1 = " + sNumber, null, null);
+			sss = "无记录";
 			boolean hasRecord = cursor.moveToFirst();
 			while(hasRecord){
 				sss = cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.Contacts.DISPLAY_NAME));
@@ -167,6 +168,7 @@ public class Welcome extends Activity{
 			}
 		}catch(Exception e){
 			System.out.println("some error!");
+			sss = "记录异常";
 		}
 		
 		return sss;
