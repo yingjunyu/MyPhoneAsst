@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    
+<LinearLayout android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FFFFFF"
+        >
+
+    <TextView
+        android:id="@+id/stime1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="25sp" />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="总体情况——"/>
+    
+    <TextView
+        android:id="@+id/stotal1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+   
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="接收短信——"/>
+    
+    <TextView
+        android:id="@+id/sincoming1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/sin6coming1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:text="发出短信——"/>
+    
+    <TextView
+        android:id="@+id/soutgoing1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/sout6going1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/set_bar"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+        
+</LinearLayout>
+</ScrollView>

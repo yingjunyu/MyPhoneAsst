@@ -44,15 +44,21 @@ public final class R {
         public static final int main_fragment=0x7f060014;
         public static final int sfee=0x7f06000b;
         public static final int sin6coming=0x7f060004;
+        public static final int sin6coming1=0x7f060020;
         public static final int sincoming=0x7f060003;
+        public static final int sincoming1=0x7f06001f;
         public static final int sinmax6number=0x7f060008;
         public static final int sinmaxnumber=0x7f060007;
         public static final int sout6going=0x7f060006;
+        public static final int sout6going1=0x7f060022;
         public static final int soutgoing=0x7f060005;
+        public static final int soutgoing1=0x7f060021;
         public static final int soutmax6number=0x7f06000a;
         public static final int soutmaxnumber=0x7f060009;
         public static final int stime=0x7f060001;
+        public static final int stime1=0x7f06001d;
         public static final int stotal=0x7f060002;
+        public static final int stotal1=0x7f06001e;
         public static final int sv_left_menu=0x7f060017;
         public static final int sv_right_menu=0x7f060019;
         public static final int textView=0x7f06000e;
@@ -70,7 +76,8 @@ public final class R {
         public static final int residemenu=0x7f030005;
         public static final int residemenu_item=0x7f030006;
         public static final int settings=0x7f030007;
-        public static final int welcome=0x7f030008;
+        public static final int sms_view=0x7f030008;
+        public static final int welcome=0x7f030009;
     }
     public static final class string {
         public static final int app_name=0x7f040000;

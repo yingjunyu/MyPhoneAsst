@@ -97,7 +97,8 @@ public class MenuActivity extends FragmentActivity implements View.OnClickListen
             //changeFragment(new ProfileFragment1());
         	changeFragment(new com.yingjunyu.MyPhoneAsst.view.ContactsDbFragment());
         }else if (view == itemCalendar){
-            changeFragment(new CalendarFragment());
+            //changeFragment(new CalendarFragment());
+        	changeFragment(new com.yingjunyu.MyPhoneAsst.view.SMSFragment());
         }else if (view == itemSettings){
             changeFragment(new SettingsFragment());
         }
